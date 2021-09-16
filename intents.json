@@ -1,0 +1,335 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "fee",
+            "patterns": [
+                "what is UIT fee structure?",
+                "what is fee structure?",
+                "show me the fee structure of UIT?"
+            ],
+            "responses": [
+                "UIT pr semester fee is PKR:80,000",
+                "PKR 80,000"
+            ]
+        },
+        {
+            "tag": "schedule",
+            "patterns": [
+                "show me class timings",
+                "schedule class schedule",
+                "give me time table",
+                "timetable",
+                "What is the classes schedule of uit",
+                "let me know the time table"
+            ],
+            "responses": [
+                "This is your class schedule",
+                "Follow this time table"
+            ]
+        },
+        {
+            "tag": "open",
+            "patterns": [
+                "When uit is open",
+                "When uit is operation",
+                "uit working days"
+            ],
+            "responses": [
+                "uit is open 6 days in a week"
+            ]
+        },
+        {
+            "tag": "attendance",
+            "patterns": [
+                "attendance criteria",
+                "required attendance",
+                "minimum attendance to give exam",
+                "% attendance"
+            ],
+            "responses": [
+                "77 %is must"
+            ]
+        },
+        {
+            "tag": "result",
+            "patterns": [
+                "Result Link",
+                "Semester exams results"
+            ],
+            "responses": [
+                "Go to http://google.com"
+            ]
+        },
+        {
+            "tag": "semester unknown",
+            "patterns": [
+                "Semester courses?",
+                "courses list",
+                "sem"
+            ],
+            "responses": [
+                "Please mention the semester"
+            ]
+        },
+        {
+            "tag": "semester 1",
+            "patterns": [
+                "1 semester courses",
+                "first semester courses",
+                "one semester courses"
+            ],
+            "responses": [
+                "6 courses are offers"
+            ]
+        },
+        {
+            "tag": "semester 2",
+            "patterns": [
+                "2 semester courses",
+                "second semester courses",
+                "two semester courses"
+            ],
+            "responses": [
+                "6 courses are offers",
+                "the offer courses are 1)Pakistan Studies 2)Object Oriented Programming 3)Discrete Structures 4)Communication Skills 5)Financial Accounting 6)Digital Logic Design"
+            ]
+        },
+        {
+            "tag": "semester 3",
+            "patterns": [
+                "3 semester courses",
+                "third semester courses",
+                "three semester courses"
+            ],
+            "responses": [
+                "5 courses are offers",
+                "the offer courses are 1)Technical And Business Writing 2)Probability And Statistics 3)Linear Algebra 4)Multivariate Calculus 5)Data Structures And Algorithms"
+            ]
+        },
+        {
+            "tag": "semester 4",
+            "patterns": [
+                "4 semester courses",
+                "fourth semester courses",
+                "four semester courses"
+            ],
+            "responses": [
+                "5 courses are offers",
+                "the offer courses are 1)Data Communication & Computer Networks 2)Marketing 3)LDifferential Equations 4)economics 5)Introduction To Software Engineering "
+            ]
+        },
+        {
+            "tag": "semester 5",
+            "patterns": [
+                "5 semester courses",
+                "fifth semester courses",
+                "five semester courses"
+            ],
+            "responses": [
+                "5 courses are offers",
+                "the offer courses are 1)Operating Systems 2)Object Oriented Software Engineering 3)Technopreneurship 4)Information Security 5)Introduction to Database Systems"
+            ]
+        },
+        {
+            "tag": "semester 6",
+            "patterns": [
+                "6 semester courses",
+                "sixth semester courses",
+                "six semester courses"
+            ],
+            "responses": [
+                "6 courses are offers",
+                "the offer courses are 1)Design And Analysis Of Algorithms 2)Software Design And Architecture 3)Software Requiremnet Engineering 4)Software Varification And Validation  5)Operation Research 6)Artificial Intelligence "
+            ]
+        },
+        {
+            "tag": "semester 7",
+            "patterns": [
+                "7 semester courses",
+                "seventh semester courses",
+                "seven semester courses"
+            ],
+            "responses": [
+                "4 courses are offers",
+                "the offer courses are 1)Big Data analytics 2)Human Computer Interaction 3)Ecommerce 4)Software Varification And Validation"
+            ]
+        },
+        {
+            "tag": "semester 8",
+            "patterns": [
+                "8 semester courses",
+                "eighth semester courses",
+                "8 semester courses"
+            ],
+            "responses": [
+                "3 courses are offers",
+                "the offer courses are IS audit or Computing cloud and Professional Practices"
+            ]
+        },
+        {
+            "tag": "feilds",
+            "patterns": [
+                "fields offered",
+                "feilds offereing"
+            ],
+            "responses": [
+                "5-6 fields are there in our university  like Software Engineering, Computer Science, Electrical, Telecommunication, Power Engineering."
+            ]
+        },
+        {
+            "tag": "Procedure",
+            "patterns": [
+                "How much time it will take to complete the whole procedure?",
+                "What is the total procedure time"
+            ],
+            "responses": [
+                "2-3 weeks it will take to complete the whole procedure."
+            ]
+        },
+        {
+            "tag": "registration",
+            "patterns": [
+                "registration process",
+                "registeration guide",
+                "registratioin help"
+            ],
+            "responses": [
+                "Fill out the form for that particular course."
+            ]
+        },
+        {
+            "tag": "test tag",
+            "patterns": [
+                "test pattern"
+            ],
+            "responses": [
+                "test response"
+            ]
+        },
+        {
+            "tag": "test tag",
+            "patterns": [
+                "test pattern"
+            ],
+            "responses": [
+                "test response"
+            ]
+        },
+        {
+            "tag": "test tag",
+            "patterns": [
+                "test pattern"
+            ],
+            "responses": [
+                "test response"
+            ]
+        },
+        {
+            "tag": "test tag",
+            "patterns": [
+                "test pattern"
+            ],
+            "responses": [
+                "test response"
+            ]
+        },
+        {
+            "tag": "asdf",
+            "patterns": [
+                "asdf"
+            ],
+            "responses": [
+                "asdf"
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "university location"
+            ],
+            "responses": [
+                "located at university road"
+            ]
+        },
+        {
+            "tag": "rating",
+            "patterns": [
+                "what is university rating "
+            ],
+            "responses": [
+                "this is 5 star rating"
+            ]
+        },
+        {
+            "tag": "bus",
+            "patterns": [
+                "is there point avaible"
+            ],
+            "responses": [
+                "yes it is avaible"
+            ]
+        },
+        {
+            "tag": "lab",
+            "patterns": [
+                "is there lab avaible"
+            ],
+            "responses": [
+                "yes lab is avaible"
+            ]
+        },
+        {
+            "tag": "installments",
+            "patterns": [
+                "can i make payment via installments"
+            ],
+            "responses": [
+                "yes you can installments"
+            ]
+        }
+    ]
+}

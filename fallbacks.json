@@ -1,0 +1,16 @@
+{
+    "fallbacks": [
+        {
+            "level1":["Academics","issue","fee","fee"],
+            "level2":["Academics","issue","course","schedule"]
+            
+        },
+        {
+            "key":"2",
+            "level1":"Admission",
+            "level2":"schedule", 
+            "tag":"schedule"
+            
+        }
+    ]
+}
