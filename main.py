@@ -46,7 +46,7 @@ def addquery():
             file.seek(0)
             json.dump(jsFile, file, indent=4)
         runpy.run_path(path_name='train.py')
-        return jsonify("")
+        return jsonify("Query added successfully")
 
     
 
